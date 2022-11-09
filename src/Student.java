@@ -13,7 +13,13 @@ public class Student {
 	/** Represents a student's class standing (Freshman, Sophomore, etc) */
 	private String classStanding;
 	
-	public Student() {}
+	public Student(String lastName, String firstName, String dob, String classStanding) {
+		super();
+		this.lastName = lastName;
+		this.firstName = firstName;
+		this.dob = dob;
+		this.classStanding = classStanding;
+	}
 
 	public String getLastName() {
 		return lastName;
