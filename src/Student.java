@@ -1,12 +1,16 @@
 
 public class Student {
 	
+	/** Represents a student's last name */
 	private String lastName;
 	
+	/** Represents a student's first name */
 	private String firstName;
 	
+	/** Represents a student's date of birth */
 	private String dob;
 	
+	/** Represents a student's class standing (Freshman, Sophomore, etc) */
 	private String classStanding;
 	
 	public Student() {}
