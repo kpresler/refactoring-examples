@@ -1,3 +1,5 @@
+package edu.bowdoin.csci.refactoring;
+
 import java.util.List;
 
 public class Main {
@@ -24,21 +26,15 @@ public class Main {
 		
 		int i = 0;
 		while (true) {
-			
 			try {
 				Student s = students.get(i);
 				System.out.println(s.toString());
 				i++;
 			}
-			
 			catch(IndexOutOfBoundsException ioobe) {
 				break;
 			}
-			
-			
 		}
-		
-		
 	}
 	
 }

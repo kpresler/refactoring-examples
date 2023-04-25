@@ -1,3 +1,4 @@
+package edu.bowdoin.csci.refactoring;
 
 public class Student {
 	
